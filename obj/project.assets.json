@@ -6457,8 +6457,8 @@
     },
     "SwagLabTestBDDFramework/1.0.0": {
       "type": "project",
-      "path": "../SwagLabTestBDDFramework/SwagLabTestBDDFramework.csproj",
-      "msbuildProject": "../SwagLabTestBDDFramework/SwagLabTestBDDFramework.csproj"
+      "path": "../SwagLabTestBDDFrameworkSolution/SwagLabTestBDDFramework.csproj",
+      "msbuildProject": "../SwagLabTestBDDFrameworkSolution/SwagLabTestBDDFramework.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6513,6 +6513,9 @@
           "projectReferences": {
             "C:\\Users\\sumanta_swain\\source\\repos\\PageLayers\\PageLayers.csproj": {
               "projectPath": "C:\\Users\\sumanta_swain\\source\\repos\\PageLayers\\PageLayers.csproj"
+            },
+            "C:\\Users\\sumanta_swain\\source\\repos\\SwagLabTestBDDFrameworkSolution\\SwagLabTestBDDFramework.csproj": {
+              "projectPath": "C:\\Users\\sumanta_swain\\source\\repos\\SwagLabTestBDDFrameworkSolution\\SwagLabTestBDDFramework.csproj"
             },
             "C:\\Users\\sumanta_swain\\source\\repos\\SwagLabTestBDDFramework\\SwagLabTestBDDFramework.csproj": {
               "projectPath": "C:\\Users\\sumanta_swain\\source\\repos\\SwagLabTestBDDFramework\\SwagLabTestBDDFramework.csproj"

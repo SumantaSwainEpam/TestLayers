@@ -183,7 +183,6 @@ namespace TestLayers.StepDefinitions
             _request.AddHeader("Accept", "*/*");
             _request.AddHeader("Content-Type", "application/json");
             _request.AddHeader("Cookie", $"token={_token}");
-
             _response = _restclient.Execute(_request);
 
         }
@@ -193,6 +192,8 @@ namespace TestLayers.StepDefinitions
         {
 
             Assert.That(_response.StatusCode, Is.EqualTo(HttpStatusCode.Created));
+            Assert.That(_response.Content, Is.EqualTo("Created"));
+
         }
     }
 }
