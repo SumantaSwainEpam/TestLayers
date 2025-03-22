@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+	  <PackageReference Include="ExtentReports" Version="5.0.5-beta1" />
+	  <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.4" />
+	  <PackageReference Include="log4net" Version="3.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-rc.1.24431.7" />
+	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+	  <PackageReference Include="NUnit" Version="4.2.2" />
+	  <PackageReference Include="NUnit.ConsoleRunner" Version="3.18.1" />
+	  <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+	  <PackageReference Include="RestSharp" Version="112.0.0" />
+	  <PackageReference Include="Selenium.Support" Version="4.24.0" />
+	  <PackageReference Include="Selenium.WebDriver" Version="4.30.0" />
+	  <PackageReference Include="SpecFlow" Version="4.0.31-beta" />
+	  <PackageReference Include="SpecFlow.NUnit" Version="4.0.31-beta" />
+	  <PackageReference Include="SpecFlow.NUnit.Runners" Version="4.0.31-beta" />
+	  <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+	  <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="4.0.31-beta" />
+
+	 
+	  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PageLayers\PageLayers.csproj" />
+    <ProjectReference Include="..\SwagLabTestBDDFramework\SwagLabTestBDDFramework.csproj" />
+  </ItemGroup>
+
+	
+
+
+</Project>
