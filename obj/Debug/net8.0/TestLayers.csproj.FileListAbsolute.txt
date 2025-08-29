@@ -181,3 +181,4 @@ C:\Users\sumanta_swain\source\repos\TestLayers\obj\Debug\net8.0\refint\TestLayer
 C:\Users\sumanta_swain\source\repos\TestLayers\obj\Debug\net8.0\TestLayers.pdb
 C:\Users\sumanta_swain\source\repos\TestLayers\obj\Debug\net8.0\TestLayers.genruntimeconfig.cache
 C:\Users\sumanta_swain\source\repos\TestLayers\obj\Debug\net8.0\ref\TestLayers.dll
+C:\Users\sumanta_swain\source\repos\TestLayers\obj\Debug\net8.0\TestLayers.sourcelink.json

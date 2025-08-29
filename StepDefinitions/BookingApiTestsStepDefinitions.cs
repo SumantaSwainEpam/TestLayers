@@ -10,7 +10,7 @@ using TestLayers.Hooks;
 
 namespace TestLayers.StepDefinitions
 {
-    
+
     [Binding]
     public class BookingApiTestsStepDefinitions
     {
@@ -20,6 +20,7 @@ namespace TestLayers.StepDefinitions
         private RestClient _restclient;
         private RestResponse _response;
         private RestRequest _request;
+        private static object _bookingId;
 
 
 
@@ -35,7 +36,7 @@ namespace TestLayers.StepDefinitions
         [Given(@"I have the booking details")]
         public void GivenIHaveTheBookingDetails()
         {
-            _request = new RestRequest("/booking", Method.Post);
+            _request = new RestRequest($"/booking/", Method.Post);
             _request.AddHeader("Accept", "*/*");
             _request.AddHeader("Content-Type", "application/json");
         }
@@ -61,13 +62,15 @@ namespace TestLayers.StepDefinitions
             _response = _restclient.Execute(_request);
 
             var bookingResponse = JsonConvert.DeserializeObject<BookingResponse>(_response.Content);
+            _bookingId = bookingResponse.BookingId;
+            Console.WriteLine(_bookingId);
 
         }
 
         [Then(@"the booking should be created successfully")]
         public void ThenTheBookingShouldBeCreatedSuccessfully()
         {
-           
+
             Assert.That(_response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
             Console.WriteLine(_response.Content);
 
@@ -77,7 +80,7 @@ namespace TestLayers.StepDefinitions
         public void GivenIHaveAnExistingBookingID()
         {
 
-            _request = new RestRequest("/booking/1770", Method.Get);
+            _request = new RestRequest($"/booking/{_bookingId}", Method.Get);
             _request.AddHeader("Accept", "*/*");
             _request.AddHeader("Content-Type", "application/json");
 
@@ -87,6 +90,7 @@ namespace TestLayers.StepDefinitions
         public void WhenIRetrieveTheBookingDetails()
         {
             _response = _restclient.Execute(_request);
+            Console.WriteLine(_response.Content);
         }
 
         [Then(@"the booking details should be returned successfully")]
@@ -105,7 +109,7 @@ namespace TestLayers.StepDefinitions
         [Given(@"I have updated booking details")]
         public void GivenIHaveUpdatedBookingDetails()
         {
-            _request = new RestRequest("/booking/1770", Method.Put);
+            _request = new RestRequest($"/booking/{_bookingId}", Method.Put);
             _request.AddHeader("Accept", "*/*");
             _request.AddHeader("Content-Type", "application/json");
             _request.AddHeader("Cookie", $"token={_token}");
@@ -197,3 +201,5 @@ namespace TestLayers.StepDefinitions
         }
     }
 }
+
+

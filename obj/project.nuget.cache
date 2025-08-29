@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GWEILei5YYs=",
+  "dgSpecHash": "Ujoh6rANXmA=",
   "success": true,
   "projectFilePath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\TestLayers.csproj",
   "expectedPackageFiles": [
@@ -123,8 +123,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: SpecFlow.Plus.LivingDocPlugin 3.9.57 requires SpecFlow (>= 3.9.8 && < 3.10.0) but version SpecFlow 4.0.31-beta was resolved.",
+      "projectPath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\TestLayers.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\TestLayers.csproj",
       "libraryId": "SpecFlow",
       "targetGraphs": [
         "net8.0"
@@ -133,8 +135,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: SpecFlow.Plus.LivingDocPlugin 3.9.57 requires SpecFlow.Tools.MsBuild.Generation (>= 3.9.8 && < 3.10.0) but version SpecFlow.Tools.MsBuild.Generation 4.0.31-beta was resolved.",
+      "projectPath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\TestLayers.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\TestLayers.csproj",
       "libraryId": "SpecFlow.Tools.MsBuild.Generation",
       "targetGraphs": [
         "net8.0"

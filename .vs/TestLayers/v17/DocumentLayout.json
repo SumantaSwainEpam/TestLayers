@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7C17DF7-002F-41CE-A2F0-806DDFF57509}|TestLayers.csproj|c:\\users\\sumanta_swain\\source\\repos\\testlayers\\hooks\\hooks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7C17DF7-002F-41CE-A2F0-806DDFF57509}|TestLayers.csproj|solutionrelative:hooks\\hooks1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hooks1.cs",
+              "DocumentMoniker": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\Hooks\\Hooks1.cs",
+              "RelativeDocumentMoniker": "Hooks\\Hooks1.cs",
+              "ToolTip": "C:\\Users\\sumanta_swain\\source\\repos\\TestLayers\\Hooks\\Hooks1.cs",
+              "RelativeToolTip": "Hooks\\Hooks1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:36:56.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
